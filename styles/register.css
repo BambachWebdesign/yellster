@@ -1,0 +1,234 @@
+html, body {
+    background-color:#000;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    color:#FFF;
+    background-image: url(../images/bg_main.jpg);
+    background-attachment: fixed;
+}
+
+#logo {
+    position: relative;
+    background-image: url('../images/logo.png');
+    width: 230px;
+    height: 60px;
+    top:25px;
+    margin-left:auto;
+    margin-right:auto;
+}
+#headline {
+    position: absolute;
+    left:270px;
+    width: 250px;
+    height: 18px;
+    top:12px;
+    min-height: 18px;
+    font-family: Verdana;
+    font-size: 11pt;
+    font-weight: bold;
+    border: 1px groove #000;
+    color: #fff;
+    background-image: url(../images/input_text.jpg);
+    /*display:inline;*/
+    float:left;
+    padding: 5px;
+    text-align: center;
+}
+.navigation_button {
+    position: absolute;
+    width: 100px;
+    height: 18px;
+    top: 12px;
+    min-height: 18px;
+    font-family: Verdana;
+    font-size: 10pt;
+    font-weight: bold;
+    border: 1px groove #000;
+    color: #fff;
+    background-image: url(../images/input_button.jpg);
+    cursor: pointer;
+    display:inline;
+    float:left;
+    padding: 5px;
+    text-align: center;
+}
+.navigation_button:hover{
+    background-image: url(../images/input_text.jpg);
+}
+.align_left {
+    left:16px;   
+}
+.align_right {
+    right:16px;    
+}
+#secure_data {
+    display:none;
+}
+#picture_data {
+    display:none;
+}
+#complete_data {
+    display:none;
+}
+.container {
+	position:relative;
+	margin:auto;
+	width:800px;
+	min-width:800px;
+	top:50px;
+	background-image: url(../images/bg1.bmp);
+	opacity: .7;
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+	filter: alpha(opacity=70);
+    border: 1px groove #000;
+	color: #fff;
+    }
+
+.container_headline {
+    position:relative;
+    width:780px;
+    min-width:780px;
+    height:20px;
+    min-height:20px;
+    padding:10px;
+}
+.container_content {
+    position:relative;
+    padding:10px;
+    color: #000;
+    font-family: Verdana;
+    font-size:10pt;
+}
+
+li.register {
+    background-color:#FFF;
+    color: #000;
+    margin:5px;
+    padding-top: 8px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;   
+    list-style-type: none;
+    border: 1px solid #333;
+    background-image: url(../images/li_bg1.bmp);
+    min-height: 30px;
+    
+}
+.input_text {
+    position:relative;
+    padding:5px;
+    width:150px;
+    float:left;    
+}
+.input_pic_text {
+    position:absolute;
+    padding:5px;
+    width:170px;
+    top: 150px;
+    left: 70px;
+    font-family: Verdana;
+    font-size:10pt;
+    text-align: center;
+}
+.input_pic {
+    position:absolute;
+    right:270px;
+    top:55px;
+    padding:0px;
+    width:250px;
+    height:250px;
+    min-height:250px;    
+}
+.result {
+    position:relative;
+    padding:0px;
+    float:right;
+    width:370px;                                            
+    left:0px;
+    padding-top:5px;
+
+}
+.check {
+    font-family: Verdana;
+    font-weight: bold;
+    font-size: 9pt;
+    padding-left: 10px;
+    padding-top: 2px;
+    width:340px;
+    float:right;    
+}
+.red {
+    color:#FF0000;    
+}
+.orange {
+    color:#FF6600;
+}
+.green {
+    color:#00FF00;
+}
+#uploader {
+    position:absolute;
+	width:300px;
+	height:100px;
+	top:300px;
+	left:300px;
+	background-image: url(../images/bg1.bmp);
+	opacity: .9;
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+	filter: alpha(opacity=90);
+    border: 2px groove;
+	color: #fff;
+}
+#uploader_headline {
+    position:relative;
+    width:280px;
+    height:20px;
+    padding:10px;
+    font-family: Verdana;
+    font-size: 10pt;
+    color:#FFF;
+    cursor: move;    
+}
+#uploader_content {
+    position:relative;
+    padding:0px;    
+}
+a.closeDiv {
+    position: relative;
+    width:15px;
+    height:15px;
+    background-image: url(../images/x2_normal.gif);
+    float:right;
+    text-decoration: none;
+    margin-top:-25px;
+    margin-right:-25px;
+}
+a.closeDiv:hover {
+    background-image: url(../images/x2_hover.gif);
+}
+div.complete_text {
+    position:relative;
+    margin:auto;
+    width:300px;
+    font-family:Verdana;
+    font-size:11pt;
+    text-align: center;
+    color:#000;
+}
+div.complete_button {
+    position:relative;
+    margin:auto;
+    width:150px;
+    height:20px;
+    font-family: Verdana;
+    font-size: 12pt;
+    text-align: center;
+    color:#FF0000;
+    background-color: #000;
+    border: 1px groove;
+    cursor: pointer;
+}
+div.complete_button:hover {
+    background-color: #808080;
+}

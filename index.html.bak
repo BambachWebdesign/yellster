@@ -1,0 +1,26 @@
+<?php
+require_once('includes/config.php')
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="de" lang="de">
+
+<head>
+    <title>Yellster</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=ISO-8859-1" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <meta name="keywords" content="" />
+
+    <link href="styles/default.css" type="text/css" rel="stylesheet" />
+    <link href="favicon.ico" type="image/x-icon" rel="shortcut icon" />
+    <script language="javascript" type="text/javascript" src="scripts/ajax.js"></script>
+    <script language="javascript" type="text/javascript" src="scripts/querries.js"></script>
+    <script language="javascript" type="text/javascript" src="scripts/dragit.js"></script>
+    <script language="javascript" type="text/javascript" src="scripts/container.js"></script>
+</head>
+
+<body onload="dragit_init(); create.init();">
+</div>
+</body>
+</html>

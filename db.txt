@@ -1,0 +1,149 @@
+DATABASE GLOBAL
+TABLE users:
+
+user_id -> session
+user_name -> session
+user_pw -> session
+user_entrydate
+user_birthday
+user_gender
+user_status (0 = single / 1 = Beziehung / 2 = Verlobt / 3 = Verheiratet)
+user_lookingfor (0 = nichts / 1 = Freunde / 2 = Beziehung)
+user_language
+user_email
+user_phone
+user_mobilphone
+user_adress
+user_adressnr
+user_city
+user_citycode
+user_country
+
+
+DATABASE messageboard
+TABLE messageboard_userid:
+
+messageboard_id
+messageboard_timestamp
+messageboard_public
+messageboard_type (0 = message / 1 = statusupdate / 2 = newfriends / 3 = newpictures / 4 = newgroups / 5 = newinterests)
+messageboard_message
+messageboard_comments (0 = no / comments_messageboard_id = yes)
+
+DATABASE COMMENTS
+TABLE comment_messageboard_id
+
+comment_id
+comment_timestamp
+comment_user_id
+comment_message
+
+inbox_userid:
+
+inbox_id
+inbox_timestamp
+inbox_userid
+inbox_username
+inbox_headline
+inbox_message
+
+outbox_userid:
+
+outbox_id
+outbox_timestamp
+outbox_userid
+outbox_username
+outbox_headline
+outbox_message
+
+
+friendlist_userid:
+
+friendlist_id
+friendlist_userid
+friendlist_username
+friendlist_abo
+friendslist_group
+
+friendlist_groups_userid:
+
+friendlist_group_id
+friendlist_group_name
+friendlist_show_entrydate
+friendlist_show_birthday
+friendlist_show_gender
+friendlist_show_status
+friendlist_show_lookingfor
+friendlist_show_language
+friendlist_show_email
+friendlist_show_phone
+friendlist_show_mobilphone
+friendlist_show_adress
+friendlist_show_adressnr
+friendlist_show_city
+friendlist_show_citycode
+friendlist_show_country
+
+
+interests_userid:
+
+interest_id
+interest_name
+
+groups_userid:
+
+group_id
+group_name
+group_abo
+
+
+options_userid:
+
+options_user_id
+options_colors (default)
+options_friendlist_active
+options_friendlist_x
+options_friendlist_y
+options_messageboard_active
+options_messageboard_x
+options_messageboard_y
+options_messages_menu_active
+options_messages_menu_x
+options_messages_menu_y
+options_messages_main_active (0 = inactive / 1 = inbox / 2 = outbox)
+options_messages_main_x
+options_messages_main_y
+options_public_entrydate
+options_public_birthday
+options_public_gender
+options_public_status
+options_public_lookingfor
+options_public_language
+options_public_email
+options_public_phone
+options_public_mobilphone
+options_public_adress
+options_public_adressnr
+options_public_city
+options_public_citycode
+options_public_country
+options_public_interests
+options_public_groups
+options_public_friendlist
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
